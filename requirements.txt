@@ -1,0 +1,35 @@
+Description
+This is a Streamlit application designed to analyze and visualize Fantasy Premier League (FPL) player performance based on match data. The app provides an interactive interface for filtering player performance by Position, Team, and Matchweek, with visualizations of key performance metrics.
+
+Key Features
+Filters:
+Player Position
+Team
+Matchweek
+Visualizations:
+Scatter Plot: Analyzes and compares short term player performance (3 week period) in key metrics vs. a longer 10-week period.
+Trend Graph: Displays trends in performance with 3-week moving averages.
+Metrics:
+xgi (Expected Goal Involvement)
+npxg (Non-penalty Expected Goals)
+xa (Expected Assists)
+att_pen_touches (Touches in the Penalty Area)
+att_third_touches (Touches in the Attacking Third)
+Installation & Setup
+1. Clone the repository:
+git clone <repository_url>
+cd <repository_folder>
+
+2. Install dependencies:
+
+pip install streamlit pandas plotly
+
+3. Run the app:
+Start the Streamlit app using the following command:
+
+streamlit run app.py
+Dependencies
+Python libraries:
+streamlit
+pandas
+plotly
